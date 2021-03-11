@@ -1,5 +1,5 @@
 Option Name,Descrip,Value
-commDir,The directory where dependent scripts are stored. This will be set as the working directory for the program. This should be set to where the 'mapping' directory is located,~/Downloads/DLinkMaP/mapping/
+commDir,The directory where dependent scripts are stored. This will be set as the working directory for the program. This should be set to where the 'mapping' directory is located,/gobot/rmathur/DLinkMaP/mapping/
 p,whether permutation testing is conducted (value: 1-yes; 0 - no),1
 seed,random seed,92187
 phenotype,"phenotype that will be analyzed ('metabolite', 'weight', 'trehalose', and 'TG' have been tested)",weight
@@ -13,5 +13,5 @@ numPermutations,Number of permutations to perform for permutation testing,1000
 survivalType,the type of survival data being analyzed (values = pupal; larvae). This can be ignored for non-survival analyses.,NA
 survivalTrans,type of survival data transformation analyzed. This can be ignored for non-survival analyses.,NA
 survivalVarName,name of the response for survival analysis. This can be ignored for non-survival analyses.,NA
-nullDir,directory for the null models,~/Downloads/DLinkMaP/results/maleWt
-outDir,directory for the output,~/Downloads/DLinkMaP/results/maleWt
+nullDir,directory for the null models,/gobot/rmathur/DLinkMaP/results/maleWt
+outDir,directory for the output,/gobot/rmathur/DLinkMaP/results/maleWt
